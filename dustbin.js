@@ -18,7 +18,7 @@ display(){
     push ();
     translate(pos.x,pos.y);
     rectMode(CENTER);
-    rect(pos.x, pos.y, this.width, this.height);
+   // rect(pos.x, pos.y, this.width, this.height);
     imageMode(CENTER);
     image(this.image, 0, 0, 150, 100);
    pop ();
